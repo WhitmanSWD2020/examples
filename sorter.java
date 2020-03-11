@@ -1,4 +1,7 @@
 public interface Comparator {
+  //Return a negative number if x comes before y, 
+  //       a positive number if y comes before x,
+  //       and zero if there is no ordering constraint
   public static int compare(Object x, Object y);
 }
 public class IntegerComparator implements Comparator {
